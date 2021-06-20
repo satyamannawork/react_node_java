@@ -1,0 +1,9 @@
+https://attacomsian.com/blog/nodejs-mongodb-local-connection
+https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database
+https://www.tutorialspoint.com/mongodb/mongodb_create_collection.htm
+
+
+
+progress so far : 
+
+connect to mongo local 
