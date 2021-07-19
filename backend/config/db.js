@@ -1,5 +1,5 @@
-require('dotenv').config({ path: '../.env' })
-//console.log(require('dotenv').config({ path: '../.env' }))
+require('dotenv').config({ path: '../.env' }) //  my ubuntu
+require('dotenv').config() ;  // my windows 
 const mongoose = require("mongoose");
 //const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
 //const URL = "mongodb://127.0.0.1:27017/myproject?retryWrites=true&w=majority" ;
