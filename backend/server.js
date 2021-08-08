@@ -12,4 +12,6 @@ connectDB();
 
 
 const PORT = process.env.PORT || 6000;
-app.listen(PORT, () => console.log('server connected at ' + PORT));
+// creating server in node 
+// takes port number and fucntions 
+app.listen(PORT, () => console.log('server connected at ' + PORT)); 

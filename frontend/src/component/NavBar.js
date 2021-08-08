@@ -1,4 +1,5 @@
 import React from 'react';
+import   './NavBar.css';
 //import PropTypes from 'prop-types';
 import {Link} from  'react-router-dom'
 const NavBar = () => {
@@ -12,7 +13,7 @@ const NavBar = () => {
 
            <ul className="nav__links">
                <li>
-                   <Link to="/cart" >
+                   <Link to="/cart" className="cart_link">
                     <i className="fas fa-shopping-cart"></i>
                     Cart
                     <span className="cartlog_badge">0</span>
