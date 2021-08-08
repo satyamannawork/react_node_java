@@ -1,0 +1,11 @@
+.sidedrawer{
+
+  width: 70%;
+  height: 100vh;
+  background: #fff;
+  z-index: 200 ;
+  position: fixed ;
+  top: 0px;
+  left: 0px;
+
+}

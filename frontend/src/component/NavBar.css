@@ -1,5 +1,6 @@
 .navbar {
 width  :  100% ;
+height: 110px;
 background-color: #171717 ; 
 display :  flex;
 justify-content: space-between ;
@@ -90,4 +91,26 @@ cursor: pointer;
     width: 100%;
     height: 3px;
    background: #a52222;
+}
+
+@media (max-width :960px) {
+    
+ .nav__links {
+
+    display:  none;
+}
+.humbarger_menu {
+    display:  flex;
+} 
+
+}
+
+@media (max-width :500px) {
+
+    .nav__logo h2{
+       
+        font-size: 1.2rem;
+       
+        
+        }
 }
