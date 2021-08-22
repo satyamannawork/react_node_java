@@ -1,11 +1,13 @@
-import React from 'react' ;
+import React from 'react';
 import './BackDrop.css'
-const BackDrop = ()=>  {
+const BackDrop = ({ showStatus, click }) => {
 
-return (
 
-    <div className="backdrop"> this is  back drop </div>
-)  
+
+    return (
+
+        showStatus && <div className="backdrop" onClick={click}> this is  back drop </div>
+    )
 
 
 }
